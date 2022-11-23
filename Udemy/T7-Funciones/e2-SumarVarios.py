@@ -4,7 +4,7 @@
 
 def sumar_valores(*args):
     resultado = 0
-    # iteramos cada elemento, podremos recorrer como una tupla, puede ser cualquier nombre en vez de args
+    # iteramos cada elemento, podremos recorrer como una tupla, puede ser cualquier nombre en vez de argss
     for valor in args:
         resultado += valor
     return resultado
